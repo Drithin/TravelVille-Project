@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/766005a431.js"></script>
+
+    <!-- CSS for the Project -->
+    <link rel="stylesheet" href="CSS/materialize.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+<div class="navbar-fixed">
+   <nav>
+        <div class="nav-wrapper purple accent-4">
+          <div class="container">
+          <a href="#" class="brand-logo"><i class="material-icons">card_travel</i>T4Travel</a>
+          
+          <ul id="mobile-demo" class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#popularplaces">Popular Places</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="container">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="mobile-demo" class="sidenav right hide-on-med-and-down">
+                <li><a href="home">Home</a></li>
+                <li><a href="search">Search</a></li>
+                <li><a href="popularplaces">Popular Places</a></li>
+                <li><a href="gallery">Gallery</a></li>
+                <li><a href="contact">Contact</a></li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+    </div>
+
+      <!-- Slider -->
+      <div class="slider section scrollspy" id="home">
+            <ul class="slides">
+              <li>
+                <img src="https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="https://images.unsplash.com/photo-1484804959297-65e7c19d7c9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1914&q=80">
+                <div class="caption left-align">
+                  <h3>Left Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="https://images.unsplash.com/photo-1503221043305-f7498f8b7888?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1935&q=80">
+                <div class="caption right-align">
+                  <h3>Right Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+    
+    <!-- Search Box -->
+    <div class="purple accent-4 section scrollspy" id="search">
+    <div class="container">
+    <div class="row">
+            <div class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                   <h2 class="center white-text">Search Destinations</h2>
+                  <input type="text" id="autocomplete-input" placeholder="Enter your City here" class="autocomplete white grey-text">
+                  <label for="autocomplete-input center-align"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Utilities Section -->
+    <div class="grey lighten-5">
+    <div class="container cards-sec">
+            <div class="row">
+                    <div class="col s12 m4">
+                     <!-- Location card -->
+                      <div class="card white purple-text">
+                        <div class="card-content center">
+                          <i class="medium material-icons">location_on</i>
+                          <span class="card-title">Pick Where</span>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laborum.</p>
+                        </div>
+                      </div>
+                     </div>
+                    <!-- Travel Shop Card -->
+                    <div class="col s12 m4">
+                    <div class="card white purple-text">
+                            <div class="card-content center">
+                              <i class="medium material-icons">shopping_cart</i>
+                              <span class="card-title">Travel Shop</span>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laborum.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- Fly Anywhere Card -->
+                    <div class="col s12 m4">
+                    <div class="card white purple-text">
+                            <div class="card-content center">
+                              <i class="medium material-icons">airplanemode_active</i>
+                              <span class="card-title">Fly Cheap</span>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laborum.</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+    </div>
+   </div>
+    </div>
+
+    <!-- Popular Places Section -->
+    <div class="section scrollspy" id="popularplaces">
+            <div class="container cards-sec">
+                    <div class="row">
+                        <h2 class="center"><span class="purple-text">Popular</span> Places</h2>
+                            <div class="col s12 m4">
+                             <!-- London Card -->
+                              <div class="card white purple-text">
+                                <div class="card-image center">
+                                   <img class="materialboxed" width="650" src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+                                  <span class="card-title">London</span>
+                                </div>
+                                <div class="card-content">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laborum.</p>
+                                </div>
+                                </div>
+                              </div>
+
+                             <!-- NY Card -->
+                            <div class="col s12 m4">
+                                    <div class="card white purple-text">
+                                            <div class="card-image center">
+                                               <img class="materialboxed" width="650" src="https://images.unsplash.com/photo-1518235506717-e1ed3306a89b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+                                              <span class="card-title">New York</span>
+                                            </div>
+                                            <div class="card-content">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laborum.</p>
+                                            </div>
+                                            </div>
+                            </div>
+
+                             <!-- Paris Card -->
+                             <div class="col s12 m4">
+                                    <div class="card white purple-text">
+                                            <div class="card-image center">
+                                               <img class="materialboxed" width="650" src="https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+                                              <span class="card-title">Paris</span>
+                                            </div>
+                                            <div class="card-content">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laborum.</p>
+                                            </div>
+                                            </div>
+                            </div>
+                             </div>
+                             <div class="center">
+                             <button class="btn waves-effect waves-light purple accent-4 white-text" type="submit" name="action">Contact for Booking
+                                    <i class="material-icons right">send</i>
+                            </button>
+                            </div>
+                                        
+                          </div>
+            </div>
+    </div>
+
+    <!-- Social Media Following Links -->
+    <div class="blue-grey lighten-5">
+        <div class="container">
+            <div class="social-content center">
+            <h2>Follow <span class="purple-text accent-4">T4Travel</span></h2>
+            <p>Follow us on social media for special offers</p>
+            <i class="fab fa-facebook fa-5x"></i>
+            <i class="fab fa-twitter fa-5x"></i>
+            <i class="fab fa-instagram fa-5x"></i>
+            <i class="fab fa-snapchat fa-5x"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo Gallery -->
+<section class="section scrollspy section-gallery" id="gallery"> 
+    <div class=" image-gallery">
+        <div class="container">
+        <h2 class="center"><span class="purple-text accent-4">Photo</span> Gallery</h2>
+        <div class="row">
+                <div class="col s12 m3 l3">
+                  <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                </div>
+                <div class="col s12 m3 l3">
+                        <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                      </div>
+                <div class="col s12 m3 l3">
+                            <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                </div>
+                <div class="col s12 m3 l3">
+                        <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                </div>
+              </div>
+              <div class="row">
+                    <div class="col s12 m3 l3">
+                      <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                    </div>
+                    <div class="col s12 m3 l3">
+                            <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                          </div>
+                    <div class="col s12 m3 l3">
+                                <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                    </div>
+                    <div class="col s12 m3 l3">
+                            <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                    </div>
+                  </div>
+                  <div class="row">
+                        <div class="col s12 m3 l3">
+                          <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                        </div>
+                        <div class="col s12 m3 l3">
+                                <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                              </div>
+                        <div class="col s12 m3 l3">
+                                    <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                        </div>
+                        <div class="col s12 m3 l3">
+                                <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                        </div>
+                      </div>
+                      <div class="row">
+                            <div class="col s12 m3 l3">
+                              <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                            </div>
+                            <div class="col s12 m3 l3">
+                                    <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                                  </div>
+                            <div class="col s12 m3 l3">
+                                        <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                            </div>
+                            <div class="col s12 m3 l3">
+                                    <img class="materialboxed responsive-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+                            </div>
+                          </div>
+            </div>
+            
+    </div>
+</section>
+
+<!-- Contact Section -->
+<div class="container section scrollspy" id="contact">
+<div class="row">
+        <div class="col xl6 l6 m6 s12">
+          <div class="box">
+              <div class="contact-box purple accent-4 white-text center">
+                    <i class="fas fa-envelope fa-5x"></i>
+                    <h3>Contact us for Booking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quod itaque ipsa illum quis culpa consequatur et rerum quos molestias!</p>
+              </div>
+              <div class="contact-info">
+                    <table>
+                            <thead>
+                              <tr>
+                                <th>Location</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr><th>T4Travel Agency</th></tr>
+                              <tr><th>contact@t4travel.com</th></tr>
+                              <tr><th>Miami,Florida</th></tr>
+                            </tbody>
+                          </table>
+                      
+              </div>
+          </div>
+        </div>
+        <div class="col xl6 l6 m6 s12 contact-form grey lighten-5">
+          <div class="box">
+              <h3>Please fill this form</h3>
+                <form>
+                        <!-- Name -->
+                        <div class="input-field">
+                          <input id="name" type="text">
+                          <label for="name">Name</label>
+                        </div>
+                  
+                        <!-- Email-->
+                        <div class="input-field">
+                          <input placeholder="Email" id="email" type="email">
+                          <label for="email">Email</label>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="input-field">
+                                <input placeholder="Phone" id="phone" type="text">
+                                <label for="phone">Phone</label>
+                              </div>
+                        <!-- TEXTAREA -->
+                        <div class="input-field">
+                          <textarea placeholder="Message" id="message" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div>
+                        <input class="purple accent-4 white-text"type="submit" value="Submit" class="btn">
+                       </div>
+                </form>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer purple accent-4 white-text">
+        <div class="footer-copyright center">
+          <div class="container">
+          © 2014 Copyright T4Travel
+          <a class="grey-text text-lighten-4 right" href="#!">Developed by Drithin</a>
+          </div>
+        </div>
+      </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--JavaScript for the Project-->
+    <script type="text/javascript" src="JS/materialize.js"></script>
+  </body>
+</html>
+      
