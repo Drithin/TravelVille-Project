@@ -1,8 +1,8 @@
-// $(document).ready(function(){
-//     $('.sidenav').sidenav();
-//   });
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
 
-  $('.sidenav').sidenav();
+  //  $('.sidenav').sidenav();
 
   $('.slider').slider({
       height: 500,
