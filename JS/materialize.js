@@ -1,13 +1,14 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
+    $('.slider').slider({
+      height:600,
+      indicators: false
+    });
   });
 
   //  $('.sidenav').sidenav();
 
-  $('.slider').slider({
-      height: 500,
-      indicators:false
-  });
+  
 
   $(document).ready(function(){
     $('input.autocomplete').autocomplete({
